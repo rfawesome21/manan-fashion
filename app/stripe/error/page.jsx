@@ -8,4 +8,4 @@ const ErrorStripe = () => {
   )
 }
 
-export default page
+export default ErrorStripe
