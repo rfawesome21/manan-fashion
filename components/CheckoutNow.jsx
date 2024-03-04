@@ -23,11 +23,13 @@ const CheckoutNow = ({product, image}) => {
   }
 
   return (
-    <Button onClick={() => {
-        buyNow();
-      }} 
+    <Button 
+        variant='outline'
+        onClick={() => {
+            buyNow();
+        }} 
     >
-        Checkout now
+     Checkout now
     </Button>
   )
 }
